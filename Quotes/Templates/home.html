@@ -3,12 +3,25 @@
 {% block content %} 
 
 
-<h1> Hello World</h1>
+<h1>Welcome to My Stock Portfolio App! </h1>
 </br>
 </br>
 
+<p>
+
+Manage and track your stock investments like a pro with our user-friendly and powerful stock portfolio application. Designed with the needs of investors in mind, our app provides a comprehensive suite of tools to help you stay on top of your stock holdings and make informed decisions.</p>
+<p>
+With My Stock Portfolio App, you can effortlessly organize and monitor your stocks all in one place. Whether you're a seasoned investor or just starting your investment journey, our app offers a seamless experience to keep you connected to the ever-changing world of stocks.</p>
+
+<br/><h3>Key Features:</h3><br/>
+
+ <p>1. Portfolio Management: Easily create and manage your stock portfolio with intuitive portfolio tracking tools. Add your stocks, track their performance, and monitor your overall investment portfolio at a glance.</p>
+
+<p>2. Real-Time Data: Stay up to date with real-time stock prices, allowing you to make informed decisions based on the most current market data. Our app integrates with reliable financial data sources to provide you with accurate and timely information.</p>
+<br/><br/>
+
 {% if ticker %}
-	{{ ticker }}
+	<h3>{{ ticker }}</h3>
 {% endif %}
 
 {% if api  %}
